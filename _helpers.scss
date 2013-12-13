@@ -1,0 +1,16 @@
+// Font Helpers
+// =============================================================================
+
+@mixin font-size($size, $line-height: $size) {
+    @include rem((
+        font-size: $size,
+        line-height: $line-height
+    ));
+}
+
+// Use only if necessary, prefer usage of the font-scale
+@mixin font($family, $weight, $size, $line-height: $size) {
+    font-family: $family;
+    font-weight: $weight;
+    @include font-size($size, $line-height);
+}
