@@ -1,6 +1,12 @@
+// =============================================================================
 // Font Helpers
 // =============================================================================
 
+// Tests: http://sassmeister.com/gist/7990898
+
+// Accessible font-size and line-height with a pixel fallback
+// Usage:
+// @include font-size(18, 24);
 @mixin font-size($size, $line-height: $size) {
     @include rem((
         font-size: $size,
@@ -8,7 +14,11 @@
     ));
 }
 
-// Use only if necessary, prefer usage of the font-scale
+// Font styling shorthand
+// Usage:
+// @include font(sans-serif, bold, 18, 24);
+//
+// Note: prefer the usage of the font-scale mixins
 @mixin font($family, $weight, $size, $line-height: $size) {
     font-family: $family;
     font-weight: $weight;
