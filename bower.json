@@ -4,7 +4,7 @@
   "main": [
    "_helpers.scss",
    "_font-scale.scss"
-  ]
+  ],
   "ignore": [
     "CHANGELOG.md"
   ],
