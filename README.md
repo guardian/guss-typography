@@ -13,6 +13,7 @@ bower install guss-typography --save
 $sans-serif: "AgateSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $serif: "EgyptianText", georgia, serif;
 $serifheadline: "EgyptianHeadline", georgia, serif;
+$text-sans: "TextSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 $fs-headers: (
     16 20, // 1
@@ -56,6 +57,13 @@ $fs-data: (
     14 18, // 4
     16 20, // 5
     18 22  // 6
+);
+
+$fs-textsans: (
+    12 16, // 1
+    13 18, // 2
+    14 20, // 3
+    14 22  // 4
 );
 
 @import "path/to/_helpers.scss";
