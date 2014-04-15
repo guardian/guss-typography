@@ -13,6 +13,7 @@ bower install guss-typography --save
 $sans-serif: "AgateSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $serif: "EgyptianText", georgia, serif;
 $serifheadline: "EgyptianHeadline", georgia, serif;
+$text-sans: "TextSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 $fs-headers: (
     16 20, // 1
@@ -30,9 +31,7 @@ $fs-headlines: (
     32 36, // 5
     36 40, // 6
     40 44, // 7
-    44 48, // 8
-    48 52, // 9
-    18 22  // 10
+    44 48  // 8
 );
 
 $fs-bodyHeadings: (
@@ -58,6 +57,13 @@ $fs-data: (
     18 22  // 6
 );
 
+$fs-textsans: (
+    12 16, // 1
+    13 18, // 2
+    14 20, // 3
+    14 22  // 4
+);
+
 @import "path/to/_helpers.scss";
 @import "path/to/_font-scale.scss";
 ```
@@ -66,4 +72,4 @@ $fs-data: (
 
 Provides Sass mixins and values for the Guardian typography & font scale.
 
-![Font scale](font-scale.jpg)
+![Font scale](font-scale.png)
