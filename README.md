@@ -72,4 +72,4 @@ $fs-textsans: (
 
 Provides Sass mixins and values for the Guardian typography & font scale.
 
-![Font scale](font-scale.jpg)
+![Font scale](font-scale.png)
