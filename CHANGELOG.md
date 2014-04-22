@@ -1,3 +1,8 @@
+## 1.2.0 (2014-04-22)
+
+- [new] `get-font-size()` function
+- [new] `get-line-height()` function
+
 ## 1.1.0 (2014-04-15)
 
 - [new] Add text-sans font
