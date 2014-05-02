@@ -68,6 +68,27 @@ $fs-textsans: (
 @import "path/to/_font-scale.scss";
 ```
 
+## Usage
+
+Refer yourself to the matrix below, using these principles:
+
+```scss
+h1 {
+    @include fs-headline(4);
+}
+p {
+    @include fs-bodyCopy(3);
+}
+.small-text {
+    // Output font-size and line-height only
+    @include fs-bodyCopy(1, $size-only: true);
+}
+.body-heading {
+    // Output font family and weight settings only
+    @include f-bodyHeading;
+}
+```
+
 ## Features
 
 Provides Sass mixins and values for the Guardian typography & font scale.
