@@ -14,6 +14,7 @@ $sans-serif: "AgateSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", s
 $serif: "EgyptianText", georgia, serif;
 $serifheadline: "EgyptianHeadline", georgia, serif;
 $text-sans: "TextSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$headline-sans: "HeadlineSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 $fs-headers: (
     16 20, // 1
@@ -73,3 +74,7 @@ $fs-textsans: (
 Provides Sass mixins and values for the Guardian typography & font scale.
 
 ![Font scale](font-scale.png)
+
+### NB
+
+`HeadlineSans` is not currently integrated into our font scale, hence no `fs-` mixin; currently we're just using it as a replacement font in a few places.
