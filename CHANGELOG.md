@@ -1,3 +1,7 @@
+## 1.3.0 (2014-05-12)
+
+- [new] `headline-sans` font, with associated `f-headline` mixin
+
 ## 1.2.0 (2014-04-22)
 
 - [new] `get-font-size()` function
