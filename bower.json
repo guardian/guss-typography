@@ -9,6 +9,6 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "guss-rem": "~1.0.0"
+    "guss-rem": "~1.1.0"
   }
 }
