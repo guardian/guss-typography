@@ -1,6 +1,6 @@
 {
   "name": "guss-typography",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "main": [
    "_helpers.scss",
    "_font-scale.scss"

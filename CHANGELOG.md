@@ -1,3 +1,8 @@
+## 1.4.0 (2014-06-02)
+
+- [new] Let font smoothing method at the product's discretion
+- [new] Documentation suggests a default global font setting
+
 ## 1.3.0 (2014-05-12)
 
 - [new] `headline-sans` font, with associated `f-headlineSans` mixin
