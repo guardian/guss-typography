@@ -15,10 +15,9 @@
     - TextSans → Guardian Text Sans Web
     - HeadlineSans → Guardian Sans Web
 - [new] Add 14/18 size to the Headline scale
-- [new] Remove 14/12 size from the Body Copy scale
+- [new] Remove 14/22 size from the Body Copy scale
 - [new] `guss-typography-defaults` mixin
 - [new] Re-architect in multiple partials
-
 
 ## 1.4.0 (2014-06-02)
 
