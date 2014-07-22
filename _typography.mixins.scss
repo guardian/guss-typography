@@ -140,7 +140,7 @@
     @include font-size(nth($textsans, 1), nth($textsans, 2));
 
     @if $size-only == false {
-        @include f-textsans;
+        @include f-textSans;
     }
 }
 
