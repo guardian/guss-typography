@@ -65,8 +65,8 @@ $fs-textSans: (
     14 22, // 4
 );
 
-@import "path/to/_helpers.scss";
-@import "path/to/_font-scale.scss";
+@import 'path/to/_helpers.scss';
+@import 'path/to/_font-scale.scss';
 ```
 
 ## Suggested default type settings
