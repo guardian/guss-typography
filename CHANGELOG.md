@@ -1,3 +1,7 @@
+## 2.0.1 (2014-08-14)
+
+- [Update] Change default line-height of `fs-header(3)`
+
 ## 2.0.0 (2014-07-22)
 
 - [new] Normalise variable and mixins names
