@@ -1,3 +1,7 @@
+## 2.0.2 (2014-08-18)
+
+- [Update] Change `f-headlineSans` to `font-weight: normal`
+
 ## 2.0.1 (2014-08-14)
 
 - [Update] Change default line-height of `fs-header(3)`
