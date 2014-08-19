@@ -1,3 +1,7 @@
+##
+
+ - [Update] Move font decleration onto `body`, allows us to use [this technique](https://github.com/JoshBarr/on-media-query)
+
 ## 2.0.2 (2014-08-18)
 
 - [Update] Change `f-headlineSans` to `font-weight: normal`
