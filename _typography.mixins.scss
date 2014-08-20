@@ -36,10 +36,8 @@
 // @include font-size(18, 24);
 
 @mixin font-size($size, $line-height: $size) {
-    @include rem((
-        font-size: $size,
-        line-height: $line-height
-    ));
+    font-size: $size;
+    line-height: $line-height;
 }
 
 // Font styling shorthand
