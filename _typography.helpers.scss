@@ -12,7 +12,7 @@
 // @return {Number}
 
 @function get-font-size($font-scale, $level) {
-    @return nth(nth($font-scale, $level), 1) * 1px;
+    @return convert-to-px(nth(nth($font-scale, $level), 1));
 }
 
 
@@ -27,5 +27,22 @@
 // @return {Number}
 
 @function get-line-height($font-scale, $level) {
-    @return nth(nth($font-scale, $level), 2) * 1px;
+    @return convert-to-px(nth(nth($font-scale, $level), 2));
+}
+
+
+// Turn any value into pixels
+//
+// @param {Number} $value
+//
+// @example
+// font-size: convert-to-px(14); // 14px
+//
+// @return {Number}
+
+@function convert-to-px($value) {
+    @if (type-of($value) == number and $value != 0) {
+        $value: if(unitless($value), $value * 1px, $value);
+    }
+    @return $value;
 }

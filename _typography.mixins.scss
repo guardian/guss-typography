@@ -36,8 +36,8 @@
 // @include font-size(18, 24);
 
 @mixin font-size($size, $line-height: $size) {
-    font-size: $size;
-    line-height: $line-height;
+    font-size: convert-to-px($size);
+    line-height: convert-to-px($line-height);
 }
 
 // Font styling shorthand
