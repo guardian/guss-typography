@@ -1,12 +1,9 @@
 {
   "name": "guss-typography",
   "main": [
-       "_typography.config.scss",
-       "_typography.helpers.scss",
-       "_typography.mixins.scss",
-       "_typography.scss"
-  ],
-  "dependencies": {
-    "guss-rem": "~1"
-  }
+     "_typography.config.scss",
+     "_typography.helpers.scss",
+     "_typography.mixins.scss",
+     "_typography.scss"
+  ]
 }
