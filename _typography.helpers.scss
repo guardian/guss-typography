@@ -6,7 +6,7 @@
  *
  * @param {String} $name - Name of the font-scale matrix (eg: headline)
  * @param {Map} $font-scale ($font-scale)
- * 
+ *
  * @example
  *  font-size: get-scale(header);
  *
@@ -26,7 +26,7 @@
  * @param {String} $name - Name of the font-scale in the matrix (eg: headline)
  * @param {Number} $level - Level in the matrix
  * @param {Map} $font-scale ($font-scale)
- * 
+ *
  * @example
  *  font-size: get-scale-level(header, 1);
  *
@@ -47,14 +47,14 @@
  * @param {String} $name - Name of the font-scale in the matrix (eg: headline)
  * @param {Number} $level - Level in the matrix
  * @param {Map} $font-scale - Configuration
- * 
+ *
  * @example
  *  font-size: get-font-size(header, 3);
  *
  * @requires {variable} $font-scale
  * @requires {function} convert-to-px
  * @requires {function} get-scale-level
- * 
+ *
  * @return {Number}
  *
  * @group typography
