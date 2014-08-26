@@ -109,6 +109,12 @@ p {
     // Output font family and weight settings only
     @include f-bodyHeading;
 }
+.get-font-size {
+    font-size: get-font-size(headline, 6);
+}
+.get-line-height {
+    line-height: get-line-height(header, 3);
+}
 ```
 
 ## Features
