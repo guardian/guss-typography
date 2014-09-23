@@ -10,7 +10,6 @@ bower install guss-typography --save
 
 ```scss
 // Override defaults if needed
-$f-data: 'Guardian Agate Sans 1 Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $f-serif-text: 'Guardian Text Egyptian Web', Georgia, serif;
 $f-serif-headline: 'Guardian Egyptian Web', Georgia, serif;
 $f-sans-serif-text: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
@@ -45,14 +44,6 @@ $font-scale: (
         1: (font-size: 14, line-height: 20),
         2: (font-size: 16, line-height: 24),
         3: (font-size: 18, line-height: 28),
-    ),
-    data: (
-        1: (font-size: 11, line-height: 14),
-        2: (font-size: 12, line-height: 14),
-        3: (font-size: 13, line-height: 16),
-        4: (font-size: 14, line-height: 18),
-        5: (font-size: 16, line-height: 20),
-        6: (font-size: 18, line-height: 22),
     ),
     textSans: (
         1: (font-size: 12, line-height: 16),
