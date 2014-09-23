@@ -244,45 +244,6 @@
 }
 
 /**
- * Data family property.
- *
- * @requires {variable} $f-data
- *
- * @group typography
- */
-@mixin f-data {
-    font-family: $f-data;
-}
-
-/**
- * Data typography settings.
- *
- * @param {Number} $level
- * @param {Boolean} $size-only
- *
- * @example
- *  // Output all properties (font-size, line-height, family)
- *  @include fs-data(3);
- *  
- *  // Output font-size and line-height only
- *  @include fs-data(3, $size-only: true);
- *
- * @requires {function} get-font-size
- * @requires {function} get-line-height
- * @requires {mixin} font-size
- * @requires {mixin} f-data
- *
- * @group typography
- */
-@mixin fs-data($level, $size-only: false) {
-    @include font-size(get-font-size(data, $level), get-line-height(data, $level));
-
-    @if $size-only == false {
-        @include f-data;
-    }
-}
-
-/**
  * Text Sans family property.
  *
  * @requires {variable} $f-sans-serif-text
